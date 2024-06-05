@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carta de Invitacion</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="content" style="align-items: center; justify-content: center; margin-top: 10vh;">
+        <div style="font-size: 10px; width: 100%; text-align: center;">
+            <h1>Cupon valido para ir a ver Planeta de los simios con:</h1>
+            <h2 style="font-size: 25px;">MIGO</h2>
+            <img style="width: 100px;" src="sti1.jpeg" alt="">
+        </div>
+        <div style="font-size: 18px; text-align: center;">
+            <p>🗓️ Fecha a elegir segun tus horarios 🗓️</p>
+        </div>
+        <div style="text-align: center;">
+            <h2>¿Aceptas?</h2>
+            <img id="miImagen" src="st2.jpeg" alt="" style="display: none; justify-content: center; width: 200px;">
+        </div>    
+        <div style="text-align: center; margin-top: 50px; margin-bottom: 20px;">
+            <a class="btn" href="https://wa.me/2615930274?text=Acepto+ir+al+cine+con+mi+amorcito+❤️" style="color: black; text-decoration: none;">SI</a>
+            <a id="miEnlace" class="btn" href="" style="color: black; text-decoration: none;">NO</a>
+        </div>
+    </div>
+    <script>
+        document.getElementById("miEnlace").addEventListener("click", function(event) {
+            event.preventDefault(); 
+            document.getElementById("miImagen").style.display = "inline"; 
+        });
+    </script>
+</body>
+</html>

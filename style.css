@@ -1,0 +1,21 @@
+body{
+    background-color: pink;
+    color: white;
+}
+
+.btn {
+    border: 1px solid red;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 5px 20px;
+    background: rgb(253, 110, 110);
+}
+
+.btn:hover {
+    border: 2px solid red;
+}
+
+.content {
+    background-color: rgba(0, 0, 0, 0.336);
+    padding: 10px;
+}

@@ -19,3 +19,12 @@ body{
     background-color: rgba(0, 0, 0, 0.336);
     padding: 10px;
 }
+
+.tit {
+    margin: 10px 0px 5px 0px;
+}
+
+.parr {
+    color: pink;
+    margin: 0px 0px 0px 0px;
+}
